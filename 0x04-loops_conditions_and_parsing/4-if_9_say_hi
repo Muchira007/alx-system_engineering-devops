@@ -4,9 +4,9 @@
 
 i=0
 
-while [ "i" lt 10 ]; do
+while [ "$i" -lt 10 ]; do
 	echo "Best School"
-	if [ $i -eq 8 ]; then
+	if [ "$i" -eq 8 ]; then
 	echo "Hi"
 	fi
 

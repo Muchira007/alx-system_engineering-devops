@@ -3,12 +3,7 @@
 
 i=0
  
-until false; do
+until ((i >= 10)); do
 	echo "Best School"
 	((i++))
-	if [[ $i lt 10 ]]; then
-		continue
-	else
-		break
-	fi
 done
