@@ -2,7 +2,7 @@
 # prints a string 10 times using while loop and on the ninth iteration it prints hi
 # for the 9th iteration print hi
 
-i = 0
+i=0
 
 while [ "i" lt 10 ]; do
 	echo "Best School"
