@@ -1,0 +1,23 @@
+ Demystifying the Journey of a Web Request: From URL Entry to Page Render
+
+In the vast expanse of the internet, every webpage you visit is the culmination of a complex process involving multiple layers of technology working seamlessly together. Have you ever wondered what exactly happens when you type "https://www.google.com" into your browser and hit Enter? Let's embark on a journey through the web stack to unravel this mystery.
+
+DNS Request: The journey begins with the Domain Name System (DNS). When you type a URL into your browser, such as "www.google.com," your computer asks the internet's address book (DNS) to find out where Google's website lives. It works to save the addresses of where a site has been saved or is working from, think of it like finding a friend's house by using their house address.
+
+TCP/IP: Armed with the IP address obtained from the DNS server, your browser initiates a TCP (Transmission Control Protocol) connection to the server. TCP ensures reliable, ordered, and error-checked delivery of data packets over the internet. IP (Internet Protocol), on the other hand, handles the addressing and routing of packets to their destination.
+
+Firewall: As the TCP connection is established, it may pass through one or more firewalls. Think of the firewall as a security guard checking every request to make sure it's legit and safe.
+
+HTTPS/SSL: Your connection to Google is encrypted like a secret code to keep your data safe from prying eyes.
+
+Load-Balancer: Upon reaching the server, the request may encounter a load balancer. This tech superhero spreads the workload across servers, making sure no one server gets overwhelmed.
+
+Web Server: Behind the scenes, a web server, such as Apache or Nginx, awaits the incoming request. The web server's primary responsibility is to handle HTTP requests from clients, retrieve the requested resources, and deliver them back as HTTP responses.
+
+Application Server: For dynamic web applications, the journey doesn't end at the web server. The request may be forwarded to an application server, where the actual processing takes place. Application servers, like Tomcat or Node.js, execute the server-side code, interact with databases, and generate dynamic content based on the client's request.
+
+Database: All the juicy information you see on Google is stored in a database, ready to be fetched and displayed.
+
+Conclusion: As the final puzzle piece falls into place, the requested webpage begins its journey back to your browser, traversing the same intricate web stack in reverse order. From DNS resolution to database queries, each component plays a crucial role in delivering a seamless and secure browsing experience.
+
+Next time you type a URL into your browser, remember the intricate journey it undertakes before magically appearing on your screen. And the next time you're faced with that classic interview question, you'll be ready to demystify the web stack with confidence and clarity.
